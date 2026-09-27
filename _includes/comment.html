@@ -1,0 +1,9 @@
+<h4 id="refHints"></h4>
+<blockquote id="refQuote"></blockquote>
+<script type="text/javascript">
+  if (window.location.href.indexOf("/?")>-1) {
+    refQuote.innerHTML = decodeURIComponent(window.location.href.slice(window.location.href.indexOf('/?')+2));
+    refHints.innerHTML = "Please copy the quoted below, so that you can paste it to your new comment.";
+  }
+</script>
+
